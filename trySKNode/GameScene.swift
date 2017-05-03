@@ -7,8 +7,6 @@
 //
 
 import SpriteKit
-
-
 import GameplayKit
 
 class GameScene: SKScene {
@@ -22,9 +20,7 @@ class GameScene: SKScene {
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         // Called when a touch begins
         
-    }
-    
-    
+    } 
     
     override func update(_ currentTime: TimeInterval) {
         // Called before each frame is rendered
