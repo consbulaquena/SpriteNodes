@@ -6,7 +6,9 @@
 //  Copyright © 2017 consios. All rights reserved.
 //
 
-import SpriteKi
+import SpriteKit
+
+
 import GameplayKit
 
 class GameScene: SKScene {
