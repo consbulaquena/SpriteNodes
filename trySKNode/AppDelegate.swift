@@ -6,7 +6,7 @@
 //  Copyright © 2017 consios. All rights reserved.
 //
 
-import UIKit
+import UIKit2
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
