@@ -13,7 +13,7 @@ class GameScene: SKScene {
     
     override func didMove(to view: SKView) {
         // Setup your scene here
-        Wish
+
     }
     
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
