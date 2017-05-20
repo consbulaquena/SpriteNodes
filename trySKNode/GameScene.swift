@@ -23,6 +23,5 @@ import GameplayKit
             myLabel.fontSize = 64
 
             addChild(myLabel)
-        
-        
+         
         }
