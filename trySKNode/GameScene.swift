@@ -5,23 +5,24 @@
 //  Copyright © 2017 consios. All rights reserved.
 //
 
+
 import SpriteKit
 import GameplayKit
 
-class GameScene: SKScene {
-    
-    override func didMove(to view: SKView) {
-        // Setup your scene here
+    class GameScene: SKScene {
+        override func didMove(to view: SKView) {
+            
+            let myLabel = SKLabelNode(fontNamed: "Futura")
+            
+            myLabel.position = CGPoint(x: 0.0, y: 0.0)
+            myLabel.verticalAlignmentMode = .center
+            myLabel.horizontalAlignmentMode = .center
+            
+            myLabel.text = "Hello"
+            myLabel.fontColor = SKColor.white
+            myLabel.fontSize = 64
 
-    }
-    
-    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
-        // Called when a touch begins
+            addChild(myLabel)
         
-    } 
-    
-    override func update(_ currentTime: TimeInterval) {
-        // Called before each frame is rendered
-
+        
         }
-}
